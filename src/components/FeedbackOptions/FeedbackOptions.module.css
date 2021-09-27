@@ -1,0 +1,22 @@
+.btnGroupe {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.button {
+  cursor: pointer;
+  width: 80px;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 10%;
+  border: none;
+
+  background-color: rgba(47, 79, 79, 0.2);
+  color: darkslategray;
+}
+
+.button:hover {
+  color: white;
+  background-color: darkslategray;
+}
